@@ -1,0 +1,14 @@
+.photo {
+  width: 300px;
+  height: 350px;
+}
+
+.divPhoto{
+  margin-left: 20px;
+}
+.info{
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+<h3>Work experience: </h3>
+<div>
+  <ul class="list-group">
+    <li *ngFor="let exp of experiences" class="list-group-item">
+      <div >
+        <p>{{exp.date}}</p>
+        <h4>{{exp.titleOfCompany}}</h4>
+        <p >{{exp.position}}</p>
+        <p >{{exp.responsibilities}}</p>
+
+      </div>
+    </li>
+  </ul>
+</div>
